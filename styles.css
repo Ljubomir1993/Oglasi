@@ -1,0 +1,66 @@
+.pulsiraj {
+    color: #7FFF00;
+    animation: pulsiranje 1.5s infinite;
+}
+
+@keyframes pulsiranje {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+  background: linear-gradient(to bottom right, #1a1a1a, #1a1a1a);
+    height: 100vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .card {
+        transition: transform 0.1s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .icon-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .icon-link i {
+        font-size: 20px;
+    }
+    .card-header span {
+      white-space: nowrap;
+    }
+
+    .pulsiranjeStrelice {
+      color: #ffc107;
+      animation: pulsiranjeStrelice 1.5s infinite;
+    }
+
+@keyframes pulsiranjeStrelice {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
